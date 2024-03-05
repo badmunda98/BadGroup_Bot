@@ -43,11 +43,21 @@
         "required": false,
         "value": "6898413162"
           },
+            "BOT_NAME": {
+      "description": "Your Bot name",
+      "required": true,
+      "value": "◄⏤͟͟͞🐼⃝⃪ ⃪ͥ͢ ᷟ ̶͢ ̶ͨ ̶ͧ ̶ͭ ̶ͤ🦋⃟⃟⃟⃟💞 𓆩🆂нιzυ 𓆪 💞𝆺𝅥⃝🥀 𝆺𝅥⃝"
+    },
       "BOT_USERNAME": {
         "description": "Your user ID as an integer.",
         "required": false,
         "value": "@Miss_BrokenX_Bot"
-      },
+            },
+      "SESSION_STRING": {
+       "description": "A Pyrogram v2 String Session.",
+       "value": "BQCGnlbeSIyJmLjZK7wIQ8O89pcy9mOSAFU3_FL0JFcip2T79yrzGAr40VTFnAcm6pkzx7TnX6HW0yz5feA792tqfnQ5yJU0f9GUb5GDXp4FHEEBTaI1q_OuyHhJFv0pfxky2c6yL676XtLEf2orjNkS-zSenMCMpXLMb0YCdmxdawyMNPMTjrjWSzZklt7lUWPIqTRzGef39b10EvsVANEnvBzooNUvNzvme9MkzacuWtgl3Klmah7JgA32r08lrSo9BtWoGdy76noIVk3d0VUQRyaVvbAG_NPVkMSgBwJ9pxEoF5WOUXe-a2Q7aekHKZ0OQbNL4pQo7yQpaJKwGDrcAAAAAZ3dBIAA",
+       "required": true
+        },
       "SUPPORT_GROUP": {
         "description": "Your Telegram support group chat username where users can contact in case of a problem..",
         "required": false,
