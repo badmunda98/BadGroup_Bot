@@ -3,7 +3,7 @@ from BADMUNDA.bot_class import BAD
 import asyncio
 import importlib
 from pyrogram import idle
-from BADMUNDA.modules import ALL_MODULES
+from BADMUNDA.plugin import ALL_MODULES
 
  
 
@@ -12,7 +12,7 @@ loop = asyncio.get_event_loop()
 
 async def BAD_boot():
     for all_module in ALL_MODULES:
-        importlib.import_module("BADMUNDA.modules." + all_module)
+        importlib.import_module("BADMUNDA.plugin." + all_module)
     print("»»»» ʜᴇʀᴏᴋᴏ ʀᴏʙᴏᴛ ᴅᴇᴘʟᴏʏ sᴜᴄᴄᴇssғᴜʟʟʏ ✨ 🎉")
     await idle()
     print("»» ɢᴏᴏᴅ ʙʏᴇ ! sᴛᴏᴘᴘɪɴɢ ʙᴏᴛ.")
