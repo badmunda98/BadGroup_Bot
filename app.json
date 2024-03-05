@@ -66,7 +66,7 @@
       "MESSAGE_DUMP": {
         "description": "Event logs channel where bot will send updates.",
         "required": true,
-        "value": ""
+        "value": "-1002093247039"
       },
       "PREFIX_HANDLER": {
         "description": "Something like '/' to execute commands...Don't give a comma or anything after 1 handler just give and space then enter second hand;ler",
@@ -91,18 +91,18 @@
       "WHITELIST_USERS": {
         "description": "A space-separated list of user IDs whitelisted, cannot be restricted.",
         "required": false,
-        "value": ""
+        "value": "6898413162"
       },
       "GENIUS_API" : {
         "description": "Your Lyrics Genius Api Token. To fetch lyrics of songs",
         "required": false,
-        "value": ""
+        "value": "7B0gU9nXrbZ_YvrO0P-2a4q4wKh8X34BwsmVnE3VG7qFFl53GFZQmz3z7n45N04NZQBb60HoXzFF59lw2ZVHYA"
       },
       
       "BDB_URI": {
         "description": "Your Mongodb uri different from the previous one to store more info",
         "required": false,
-        "value": ""
+        "value": "mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
       },
       "TIME_ZONE": {
         "description": "Your time zone",
@@ -112,7 +112,7 @@
       "RMBG_API" : {
         "description": "Your removebackground api to remove the background",
         "required": false,
-        "value": ""
+        "value": "P3rSNxGFbXuE2wz5gE5xq4vq"
       },
       "WORKERS": {
         "description": "Number of workers to run the bot.",
